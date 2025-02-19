@@ -1,4 +1,4 @@
-name: TPL_Django_CI
+name: DjangoKickstart_CI
 
 # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#example-using-multiple-events-with-activity-types-or-configuration
 # Trigger only on push and pull_request, but only for main branch

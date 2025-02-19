@@ -1,23 +1,23 @@
 upstream uwsgi {
-        server unix:/opt/TPL_Django/uwsgi/uwsgi.sock;
+        server unix:/opt/DjangoKickstart/uwsgi/uwsgi.sock;
 }
 
 server {
         listen 80;
         server_name _;
 
-        access_log /opt/TPL_Django/logs/access.log;
-        error_log /opt/TPL_Django/logs/error.log;
+        access_log /opt/DjangoKickstart/logs/access.log;
+        error_log /opt/DjangoKickstart/logs/error.log;
 
         charset utf-8;
         client_max_body_size 16M;
 
         location /static {
-                alias /opt/TPL_Django/static;
+                alias /opt/DjangoKickstart/static;
         }
 
         location /media {
-                alias /opt/TPL_Django/media;
+                alias /opt/DjangoKickstart/media;
         }
 
         location / {

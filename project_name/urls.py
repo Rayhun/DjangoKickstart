@@ -61,6 +61,6 @@ if settings.DEBUG:
     ] + urlpatterns
 
 # admin site customizations ---------------------------------------------------
-admin.sites.AdminSite.site_header = "TPL_Django Administration"
-admin.sites.AdminSite.site_title = "TPL_Django Administration"
-admin.sites.AdminSite.index_title = "TPL_Django Admin Panel"
+admin.sites.AdminSite.site_header = "DjangoKickstart Administration"
+admin.sites.AdminSite.site_title = "DjangoKickstart Administration"
+admin.sites.AdminSite.index_title = "DjangoKickstart Admin Panel"

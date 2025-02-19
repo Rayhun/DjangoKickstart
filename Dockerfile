@@ -12,9 +12,9 @@ RUN pip install -r /requirements.txt
 
 RUN apk del --no-cache .build-deps
 
-RUN mkdir /TPL_Django
-WORKDIR /TPL_Django
-COPY . /TPL_Django
+RUN mkdir /DjangoKickstart
+WORKDIR /DjangoKickstart
+COPY . /DjangoKickstart
 
 RUN addgroup -g 994 jenkins
 RUN adduser -D -u 997 jenkins -G jenkins

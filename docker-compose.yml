@@ -2,11 +2,11 @@ version: "3.7"
 
 services:
   mq:
-    container_name: tpl_django_mq
+    container_name: django_kick_start_mq
     image: rabbitmq:3-alpine
 
   db:
-    container_name: tpl_django_db
+    container_name: django_kick_start_db
     image: postgres:12-alpine
     ports:
       - "5432:5432"
@@ -16,13 +16,13 @@ services:
       - POSTGRES_PASSWORD=postgres
 
   app:
-    container_name: tpl_django_app
+    container_name: django_kick_start_app
     build:
       context: .
     ports:
     - "8000:8000"
     volumes:
-    - .:/TPL_Django
+    - .:/DjangoKickstart
     command: >
       sh -c "python manage.py wait_for_db &&
              python manage.py migrate --noinput &&
@@ -36,7 +36,7 @@ services:
       - db
 
   celeryworker:
-    container_name: tpl_django_celery
+    container_name: django_kick_start_celery
     build:
       context: .
       dockerfile: Dockerfile

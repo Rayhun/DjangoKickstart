@@ -8,7 +8,7 @@ pipeline {
     environment {
         GH_SCRIPT = 'scripts/repo_status_update.sh'
         GH_OWNER = 'Tiger-Park-Limited'
-        GH_REPO = 'TPL_Django'
+        GH_REPO = 'DjangoKickstart'
         GH_TOKEN = credentials('TPL_Repo_Status')
         PROJ_NAME = "project_name"
         PROJ_DIR = "/opt/$GH_REPO"
@@ -63,8 +63,8 @@ pipeline {
                         $PROJ_ENV/python manage.py wait_for_db
                         $PROJ_ENV/python manage.py migrate --noinput
                         $PROJ_ENV/python manage.py collectstatic --noinput
-                        sudo systemctl restart tpl_django
-                        sudo systemctl status tpl_django
+                        sudo systemctl restart django_kick_start
+                        sudo systemctl status django_kick_start
                     \"
                 """
             }
