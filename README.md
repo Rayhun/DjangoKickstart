@@ -143,3 +143,46 @@
     git push -u origin release
     git checkout main  # back to dev branch, happy coding!
     ```
+    ### File Structure
+    ```
+    API/
+        migrations/
+        models/
+        serializers/
+        tests/
+        views/
+        __init__.py
+        apps.py
+        urls.py
+    Core/
+        admin.py
+        apps.py
+        forms/
+        management/
+        migrations/
+        models/
+        tasks.py
+        tests/
+        urls.py
+        views/
+    docker-compose.yml
+    Dockerfile
+    examples/
+        celery-beat.example
+        celery-worker.example
+        daphne.example
+        ...
+    logs/
+    .coveragerc
+    .flake8
+    .gitignore
+    manage.py
+    project_name/
+    README.md
+    requirements.txt
+    scripts/
+    site_settings/
+    staticfiles/
+    templates/
+    utils.py
+    ```
