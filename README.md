@@ -46,7 +46,7 @@
 
 2. ### Install Django and startproject.
     - Install `Django` v3 using `pip` within your `venv`
-    - Download the __[DjangoKickstart.zip](https://github.com/rayhun/DjangoKickstart/archive/template.zip)__. _(Please save as template.zip in your project directory)_
+    - Download the __[DjangoKickstart.zip](https://github.com/rayhun/DjangoKickstart/DjangoKickstart-main.zip)__. _(Please save as template.zip in your project directory)_
     - Start your project using `django-admin` and the template.
     ```shell script
     pip install django
