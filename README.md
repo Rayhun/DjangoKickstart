@@ -1,10 +1,8 @@
-# __Django_Setup__
+# __Django Kick start__
 [![django-version](https://img.shields.io/badge/django-3.2-green)](https://www.djangoproject.com)
 [![python-version](https://img.shields.io/badge/python-3.8-blue)](https://www.python.org)
 [![postgresql-version](https://img.shields.io/badge/postgresql-12.3-orange)](https://www.postgresql.org)
-[![Coverage](https://jenkins.tiger-park.com/coverage/DjangoKickstart)](https://jenkins.tiger-park.com/job/DjangoKickstart/cobertura)
-[![GH-Actions](https://github.com/Tiger-Park-Limited/DjangoKickstart/workflows/DjangoKickstart/badge.svg)](https://github.com/Tiger-Park-Limited/DjangoKickstart/actions)
-[![Jenkins_CI](https://jenkins.tiger-park.com/buildStatus/icon?job=DjangoKickstart&subject=Jenkins)](https://jenkins.tiger-park.com/job/DjangoKickstart)
+
 
 > _A Django framework project template for quick & easy initialization._
 
@@ -48,7 +46,7 @@
 
 2. ### Install Django and startproject.
     - Install `Django` v3 using `pip` within your `venv`
-    - Download the __[template.zip](https://github.com/Tiger-Park-Limited/DjangoKickstart/archive/template.zip)__. _(Please save as template.zip in your project directory)_
+    - Download the __[DjangoKickstart.zip](https://github.com/rayhun/DjangoKickstart/archive/template.zip)__. _(Please save as template.zip in your project directory)_
     - Start your project using `django-admin` and the template.
     ```shell script
     pip install django
@@ -130,7 +128,7 @@
     git add .
     git commit -m "initialize project"
     git branch -M main
-    git remote add origin git@github.com:Tiger-Park-Limited/<project_name>.git
+    git remote add origin git@github.com:rayhun/<project_name>.git
     git push -u origin main
     
     # setup release branch

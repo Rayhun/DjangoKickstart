@@ -33,7 +33,7 @@ CONFIG = {  # -----------------------------------------------------------------
         # external url that opens in a new window (Permissions can be added)
         {
             "name": "Demo",
-            "url": "https://tpl-django.tiger-park.com/",
+            "url": "http://localhost:8000/",
             "new_window": True
         },
         # model admin to link to (Permissions checked against model)
