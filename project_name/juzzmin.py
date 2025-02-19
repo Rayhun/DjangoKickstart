@@ -14,7 +14,7 @@ CONFIG = {  # -----------------------------------------------------------------
     # Welcome text on the login screen
     "welcome_sign": "Welcome to TPL Django",
     # Copyright on the footer
-    "copyright": "Tiger Park Limited",
+    "copyright": "Django Kick start",
     # The model admin to search from the search bar
     "search_model": "Core.user",
     # Field name on user model that contains avatar image

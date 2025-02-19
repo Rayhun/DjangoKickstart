@@ -51,8 +51,8 @@ DB_CONFIG = {
     'HOST': os.getenv('DB_HOST', '127.0.0.1'),
     'PORT': os.getenv('DB_PORT', 5432),
     'NAME': os.getenv('DB_NAME', 'django_kick_start_db'),
-    'USER': os.getenv('DB_USER', 'django_kick_start_user'),
-    'PASSWORD': os.getenv('DB_PASS', 'Td190588')
+    'USER': os.getenv('DB_USER', 'postgres'),
+    'PASSWORD': os.getenv('DB_PASS', 'Admin123#')
 }
 
 # mysql defaults:
