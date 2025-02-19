@@ -22,6 +22,13 @@
 - GitHub Actions CI, as well as Jenkins CI/CD with Docker
 - Prometheus Monitoring with Model / Middleware metrics
 - ...more features will be added regularly, stay tuned!
+![image](https://github.com/user-attachments/assets/a3ba47a0-d61b-42a5-86f0-067ddc73835b)
+![image](https://github.com/user-attachments/assets/32e91cb1-921a-4568-bd74-334ae9cf664a)
+![image](https://github.com/user-attachments/assets/057acaf4-3b02-4e05-9363-439b6872efc4)
+![image](https://github.com/user-attachments/assets/738a3bd3-3d37-49d1-8e0b-e3d01edb0ed6)
+![image](https://github.com/user-attachments/assets/e4468def-618b-454a-80a3-06d23f0fa49c)
+
+
 
 # __Usage:__
 > _This document will be using the following as an input variable: `<variable>`. Please input your own value, i.e. `<project_name>` --> My-Project_
