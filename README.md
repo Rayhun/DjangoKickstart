@@ -6,27 +6,36 @@
 
 > _A Django framework project template for quick & easy initialization._
 
-# __Template features:__
-- User Model with Profile (using Email address as username)
-- Local Settings (to separate Dev/Production environments)
-- Logging enabled (timely rotated daily at midnight)
-- Log entries viewable under Django Admin, reusable anywhere  
-- Import_Export plug-in (csv,xls,xlsx,json,etc import/export)
-- Django REST Framework with API endpoints and view sets
-- Django-Cors-Headers to work with Cross Origin Resource Sharing in REST API
-- Django-filter for dynamic queryset filtering from url parameters
-- Django-cleanup (auto removal of unused/unlinked files and images)
-- Celery integration using RabbitMQ (can also use Redis)
-- Test Driven Development (TDD on all written codes)
-- Testing using coverage, and linting with flake8
-- GitHub Actions CI, as well as Jenkins CI/CD with Docker
-- Prometheus Monitoring with Model / Middleware metrics
-- ...more features will be added regularly, stay tuned!
-![image](https://github.com/user-attachments/assets/a3ba47a0-d61b-42a5-86f0-067ddc73835b)
-![image](https://github.com/user-attachments/assets/32e91cb1-921a-4568-bd74-334ae9cf664a)
-![image](https://github.com/user-attachments/assets/057acaf4-3b02-4e05-9363-439b6872efc4)
-![image](https://github.com/user-attachments/assets/738a3bd3-3d37-49d1-8e0b-e3d01edb0ed6)
-![image](https://github.com/user-attachments/assets/e4468def-618b-454a-80a3-06d23f0fa49c)
+---
+
+## **Key Features**
+
+- **User Model with Profile**: Utilizes email addresses as usernames for seamless authentication and user management.  
+- **Environment-Specific Settings**: Separate configurations for development and production environments to ensure secure and efficient deployment.  
+- **Logging System**: Comprehensive logging enabled with daily log rotation at midnight. Log entries are accessible via Django Admin and can be reused throughout the application.  
+- **Data Import/Export**: Integrated `import_export` plugin for seamless data handling in various formats, including CSV, XLS, XLSX, and JSON.  
+- **Django REST Framework (DRF)**: Built-in API endpoints and view sets for creating robust RESTful APIs.  
+- **Cross-Origin Resource Sharing (CORS)**: Enabled via `Django-Cors-Headers` to facilitate secure and efficient API interactions across domains.  
+- **Dynamic Query Filtering**: Utilizes `Django-filter` to enable dynamic queryset filtering based on URL parameters.  
+- **Automatic File Cleanup**: Integrated `Django-cleanup` to automatically remove unused or unlinked files and images, ensuring optimal storage management.  
+- **Celery Integration**: Supports asynchronous task processing using RabbitMQ (Redis is also supported as an alternative).  
+- **Test-Driven Development (TDD)**: All code is developed following TDD principles to ensure reliability and maintainability.  
+- **Testing and Code Quality**:  
+  - Test coverage analysis using `coverage`.  
+  - Code linting with `flake8` to enforce coding standards.  
+- **Continuous Integration/Continuous Deployment (CI/CD)**:  
+  - GitHub Actions for automated CI workflows.  
+  - Jenkins CI/CD pipelines with Docker support for scalable and reproducible deployments.  
+- **Monitoring and Metrics**: Integrated Prometheus for real-time monitoring of application performance, including model and middleware metrics.  
+
+---
+
+## Demo  
+<img src="https://github.com/user-attachments/assets/a3ba47a0-d61b-42a5-86f0-067ddc73835b" width="450" />
+<img src="https://github.com/user-attachments/assets/32e91cb1-921a-4568-bd74-334ae9cf664a" width="450" />
+<img src="https://github.com/user-attachments/assets/057acaf4-3b02-4e05-9363-439b6872efc4" width="450" />
+<img src="https://github.com/user-attachments/assets/738a3bd3-3d37-49d1-8e0b-e3d01edb0ed6" width="450" />
+<img src="https://github.com/user-attachments/assets/e4468def-618b-454a-80a3-06d23f0fa49c" width="450" />
 
 
 
