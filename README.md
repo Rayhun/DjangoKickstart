@@ -54,7 +54,7 @@
     - Install `Django` using `pip`.
     ```shell script
     mkdir <project_name> && cd $_
-    python -m venv venv
+    python3 -m venv venv
     source venv/bin/activate
     # Windows: source venv/Scripts/activate
     python -m pip install --upgrade pip
@@ -66,14 +66,14 @@
     - Start your project using `django-admin` and the template.
     ```shell script
     pip install django
-    # download the template.zip linked above
+    # download the DjangoKickstart-main.zip linked above
     django-admin startproject \
-        --template template.zip \
+        --template DjangoKickstart-main.zip \
         --extension py,md,yml,example \
         --name Dockerfile,Jenkinsfile \
         <project_name> .
     pip install -r requirements.txt
-    rm -f template.zip
+    rm -f DjangoKickstart-main.zip
     ```
     > _NOTE: `<project_name>` must be the exact same name as your project repository name. The period `.` at the end of `django-admin` starts the project in the current directory._
 
